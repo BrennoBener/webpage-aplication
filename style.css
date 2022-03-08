@@ -190,3 +190,18 @@
     font-size: 2rem;
   }
 }
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0px;
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1rem;
+  z-index: 10;
+  display: inline-block;
+}
+
+footer a {
+  color: whitesmoke;
+}
