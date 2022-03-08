@@ -49,7 +49,8 @@
   position: relative;
   width: 60px;
   height: 60px;
-  background: url(assets/menu-regular-24.png);
+  background: url(assets/menu.png);
+  filter: invert(100%);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
@@ -57,7 +58,7 @@
 }
 
 .toggle.active {
-  background: url(assets/x-regular-24.png);
+  background: url(assets/close.png);
   background-repeat: no-repeat;
   background-size: 23px;
   background-position: center;
@@ -165,6 +166,12 @@
   margin-right: 15px;
   transform: scale(0.5);
   transition: 0.5;
+  -webkit-filter:(100%);
+}
+.social li a:hover {
+  -webkit-filter:grayscale(0%);
+  filter:grayscale();
+    transition: 0.3s;
 }
 .social li a:hover {
   transform: scale(0.5) translateY(-15px);
